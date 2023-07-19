@@ -1,0 +1,17 @@
+{
+  "ui": {
+    "version": 46,
+    "minimumversion": 46,
+    "downloadurl": "0",
+    "servermessage": "Working as of July 8. Be sure to update Rbx in the Microsoft Store",
+    "updateinfo": "7.x featuring a massive resource and performance overhaul.",
+    "qdRFzx_exe": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/6-8/1705r/RBXMSEAPI.exe",
+    "injDep": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/6-8/Fluxteam_net_API.dll",
+    "qdRFzx_zip": "0",
+  },
+  "dll": {
+    "version": "3167",
+    "patched": false,
+    "downloadurl": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/7-08/Module.dll"
+  }
+}
