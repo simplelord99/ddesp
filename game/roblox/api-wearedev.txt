@@ -1,0 +1,18 @@
+{
+  "ui": {
+    "version": 46,
+    "minimumversion": 46,
+    "downloadurl": "0",
+    "servermessage": "Working as of July 8. Be sure to update Rbx in the Microsoft Store",
+    "updateinfo": "7.x featuring a massive resource and performance overhaul.",
+    "Indicium_Supra_dll": "0",
+    "qdRFzx_exe": "https://simplelord99.github.io/game/roblox/api-file/RBXMSEAPI.exe",
+    "injDep": "https://simplelord99.github.io/game/roblox/api-file/Fluxteam_net_API.dll",
+    "LoadLibrary_x86_address_exe": "0"
+  },
+  "dll": {
+    "version": "3167",
+    "patched": false,
+    "downloadurl": "https://simplelord99.github.io/game/roblox/api-file/Module.dll"
+  }
+}
