@@ -9,7 +9,7 @@
     "injDep": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/6-8/Fluxteam_net_API.dll"
 },
   "dll": {
-    "version": "3167",
+    "version": "2023-7-25",
     "patched": false,
     "downloadurl": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/723/Module.dll"
   }
