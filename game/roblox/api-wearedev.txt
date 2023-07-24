@@ -9,7 +9,7 @@
     "injDep": "https://github.com/simplelord99/ddesp/raw/main/game/roblox/api-file/Fluxteam_net_API.dll"
 },
   "dll": {
-    "version": "2023-7-25",
+    "version": "3168",
     "patched": false,
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/roblox/api-file/Module.dll"
   }
