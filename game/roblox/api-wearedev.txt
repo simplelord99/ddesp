@@ -6,11 +6,11 @@
     "servermessage": "Working as of July 8. Be sure to update Rbx in the Microsoft Store",
     "updateinfo": "noteee",    
     "qdRFzx_zip": "https://cdn.jsdelivr.net/gh/simplelord99/ddesp/game/roblox/api-file/RBXMSEAPI.zip",
-    "injDep": "https://cdn.jsdelivr.net/gh/simplelord99/ddesp/game/roblox/api-file/Fluxteam_net_API.dll"
+    "injDep": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/6-8/Fluxteam_net_API.dll"
 },
   "dll": {
     "version": "3167",
     "patched": false,
-    "downloadurl": "https://cdn.jsdelivr.net/gh/simplelord99/ddesp/game/roblox/api-file/Module.dll"
+    "downloadurl": "https://github.com/WeAreDevs-Official/WeAreDevs-Official.github.io/raw/master/versions/723/Module.dll"
   }
 }
