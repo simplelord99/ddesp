@@ -1,14 +1,9 @@
-        string jsontest = @"{
-              'Name': 'Jose Luis',
-              'Channel': 'ParametricCamp',
-              'Active': true,
-              'Age': 3,
-              'Members': [
-                'Richard',
-                'Tim',
-                'Victor',
-                'Chandra',
-                'Andres',
-                'Nicholas'
-              ]
-            }";
+{
+  "phienban": {
+    "version": 2.7
+},
+  "pubgm_offset": {
+    "Gword_update": "115004",
+    "Gname_update": 3211240,
+  }
+}
