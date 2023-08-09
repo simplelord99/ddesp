@@ -1,1 +1,9 @@
-test1.txt
+{
+  "phienban": {
+    "version": 2.7
+},
+  "pubgm_offset": {
+    "Gword_update": "115004",
+    "Gname_update": 3211240,
+  }
+}
