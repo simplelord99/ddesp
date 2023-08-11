@@ -1,10 +1,8 @@
 {
-  "phienban": {
-    "version": 2.7,
-    "v_menu": 1.1
+  "DD_Menu_update": {
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/DD27-1.zip"
 },
   "pubgm_offset": {
-    "Gword_update": "115004",
-    "Gname_update": 3211240,
+    "Gword_update": "115004",   
   }
 }
