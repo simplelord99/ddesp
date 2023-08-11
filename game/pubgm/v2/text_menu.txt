@@ -1,0 +1,10 @@
+{
+  "phienban": {
+    "version": 2.7,
+    "v_menu": 1.1
+},
+  "pubgm_offset": {
+    "Gword_update": "115004",
+    "Gname_update": 3211240,
+  }
+}
