@@ -1,6 +1,6 @@
 {
   "DD_Menu_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/DD%20PUBGM%20V2.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/DD1.1.zip"
 },
   "pubgm_offset": {
     "Gword_update": "115004",   
