@@ -4,8 +4,8 @@
 },
   "sp_file": {
     "DirectX": "https://www.microsoft.com/en-us/Download/confirmation.aspx?id=35",
-    "vc_redistx86": https://aka.ms/vs/17/release/vc_redist.x86.exe,
-    "vc_redistx64": https://aka.ms/vs/17/release/vc_redist.x64.exe
+    "vc_redistx86": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+    "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/DD_up.zip"
