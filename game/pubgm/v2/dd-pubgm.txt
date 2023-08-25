@@ -3,7 +3,7 @@
     "version_app": 1.1  
 },
   "sp_file": {
-    "dxwebsetup": "https://www.microsoft.com/en-us/Download/confirmation.aspx?id=35",
+    "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
     "vc_redistx86": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
