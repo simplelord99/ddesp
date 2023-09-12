@@ -12,7 +12,7 @@
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp PUBGM.",
-    "note_lasted": "Lasted update for PUBGM 2.7"
+    "note_lasted": "Lasted update for PUBGM 2.8"
 }
 
 }
