@@ -8,7 +8,7 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/DD_PUBGM_UP1.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/pubgm2.8-1.zip"
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp PUBGM.",
