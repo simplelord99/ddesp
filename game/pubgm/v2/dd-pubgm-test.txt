@@ -11,7 +11,7 @@
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/pubgm2.8-2.zip"
 },
 "note_data": {
-    "dd_note": "Ad note: Welcome to DD Esp PUBGM.",
+    "dd_note": "Welcome to DD Esp PUBGM 2.8",
     "note_lasted": "Lasted update for PUBGM 2.8"
 }
 
