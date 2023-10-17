@@ -11,8 +11,8 @@
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/cs2/update-new/dd-cs2-1.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 2.8 ",
-    "note_lasted": "Lasted update for PUBGM 2.8"
+    "dd_note": "Welcome to DD Esp CS2 ",
+    "note_lasted": "Lasted update for CS2 "
 }
 
 }
