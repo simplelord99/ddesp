@@ -8,7 +8,7 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DD_CS2_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/cs2/update-new/dd-cs2-2.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/cs2/update-new/dd-cs2-3.zip"
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp CS2 ",
