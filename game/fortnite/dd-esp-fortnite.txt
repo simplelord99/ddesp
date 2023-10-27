@@ -1,18 +1,19 @@
 {
   "phienban_up": {
-    "version_app": 1.0  
+    "version_app": 1.0
 },
   "sp_file": {
     "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
     "vc_redistx86": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
-"DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/ddpubgm2.8-5-10-1.zip"
+"DD_CS2_update": {
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/cs2/update-new/dd-cs2-1.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to dd-esp-fortnite ",
-    "note_lasted": "Lasted update for dd-esp-fortnite"
+    "dd_note": "Welcome to DD Esp Fortnite ",
+    "cs2_game": "Release Notes for ddd",
+    "note_lasted": "Lasted update for CS2 "
 }
 
 }
