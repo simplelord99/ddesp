@@ -8,7 +8,7 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/ddpubgm2.8-5-10-1.zip"
+    "downloadurl": ".."
 },
 "note_data": {
     "dd_note": "Welcome to dd-esp-fortnite ",
