@@ -8,12 +8,12 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DD_CS2_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/cs2/update-new/dd-cs2-1.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/fortnite/up-file/fn1-1.zip"
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp Fortnite ",
-    "cs2_game": "Release Notes for ddd",
-    "note_lasted": "Lasted update for CS2 "
+    "cs2_game": "Release Notes for Fortnite ",
+    "note_lasted": "Lasted update for DD Esp Fortnite "
 }
 
 }
