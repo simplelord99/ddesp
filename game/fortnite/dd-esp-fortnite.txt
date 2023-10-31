@@ -12,7 +12,7 @@
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp Fortnite ",
-    "cs2_game": "Release Notes for Fortnite C4S4 ",
+    "note_game": "Release Notes for Fortnite C4S4 ",
     "note_lasted": "Lasted update for DD Esp Fortnite "
 }
 
