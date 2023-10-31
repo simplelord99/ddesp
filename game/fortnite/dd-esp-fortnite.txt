@@ -7,7 +7,7 @@
     "vc_redistx86": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
-"DD_CS2_update": {
+"DD_update": {
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/fortnite/up-file/dd-fn-1-2.zip"
 },
 "note_data": {
