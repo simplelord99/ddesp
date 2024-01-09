@@ -1,6 +1,6 @@
 {
   "phienban_up": {
-    "version_app": 1.4 
+    "version_app": 1.5 
 },
   "sp_file": {
     "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
@@ -8,11 +8,11 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dd-pubgm-2.9-3.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dd-pubgm-3.0-1.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 2.9 ",
-    "note_lasted": "Lasted update for PUBGM 2.9"
+    "dd_note": "Welcome to DD Esp PUBGM 3.0 / pls, wait to fix skeleton",
+    "note_lasted": "Lasted update for PUBGM 3.0"
 }
 
 }
