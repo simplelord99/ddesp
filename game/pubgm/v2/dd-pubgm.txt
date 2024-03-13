@@ -1,6 +1,6 @@
 {
   "phienban_up": {
-    "version_app": 1.6 
+    "version_app": 1.7 
 },
   "sp_file": {
     "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
@@ -11,8 +11,9 @@
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dd-pubgm-3.0-2.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 3.0 ",
-    "note_lasted": "Lasted update for PUBGM 3.0"
+    "dd_note": "Welcome to DD Esp PUBGM 3.1 ",
+    "note_lasted": "Lasted update for PUBGM 3.1"
 }
 
 }
+
