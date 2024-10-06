@@ -11,8 +11,8 @@
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/cs2/update-new/7-10-24-CS2_DDEsp.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp CS2 - 2024-10-7 ",
-    "cs2_game": "Release Notes",
+    "dd_note": "Welcome to DD Esp CS2 - 2024-10-7",
+    "cs2_game": "Release Notes new",
     "note_lasted": "Lasted update for CS2 "
 }
 
