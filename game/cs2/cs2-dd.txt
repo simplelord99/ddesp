@@ -12,7 +12,7 @@
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp CS2 - 2024-10-7",
-    "cs2_game": "Release Notes new",
+    "cs2_game": "Release Notes new 1",
     "note_lasted": "Lasted update for CS2 "
 }
 
