@@ -8,11 +8,11 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DD_CS2_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/cs2/update-new/7-10-24-1-CS2_DDEsp.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/cs2/update-new/7-10-1-CS2_DDEsp.zip"
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp CS2 - 2024-10-7",
-    "cs2_game": "Release Notes new 1",
+    "cs2_game": "Release Notes new 2",
     "note_lasted": "Lasted update for CS2 "
 }
 
