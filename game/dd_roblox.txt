@@ -1,0 +1,19 @@
+{
+  "phienban_up": {
+    "version_app": 1
+},
+  "sp_file": {
+    "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
+    "vc_redistx86": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+    "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  },
+"DD_update": {
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/cs2/update-new/7-10-1-CS2_DDEsp.zip"
+},
+"note_data": {
+    "dd_note": "Welcome to DD Esp CS2 - 2024-10-7",
+    "game": "Release Notes new 2",
+    "note_lasted": "Lasted update for CS2 "
+}
+
+}
