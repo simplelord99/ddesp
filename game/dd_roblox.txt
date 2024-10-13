@@ -8,7 +8,7 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DD_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/roblox/api-file/ddroblox-14-10-2.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/roblox/api-file/ddroblox-14-10-3.zip"
 },
 "note_data": {
     "dd_note": "DD Esp Roblox Executor Mod",
