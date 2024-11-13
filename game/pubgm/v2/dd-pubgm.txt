@@ -12,6 +12,6 @@
 },
 "note_data": {
     "dd_note": "Welcome to DD Esp PUBGM 3.5 up1",
-    "note_lasted": "Lasted update for PUBGM 3.6"
+    "note_lasted": "Lasted update for PUBGM 3.5"
 }
 }
