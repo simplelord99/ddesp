@@ -11,7 +11,7 @@
     "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/pubgm/v2/up-menu/ddpubgm-3.5-1.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 3.4 - up3",
-    "note_lasted": "Lasted update for PUBGM 3.4"
+    "dd_note": "Welcome to DD Esp PUBGM 3.5 up1",
+    "note_lasted": "Lasted update for PUBGM 3.6"
 }
 }
