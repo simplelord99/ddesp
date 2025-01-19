@@ -1,6 +1,6 @@
 {
   "phienban_up": {
-    "version_app": "3.5"
+    "version_app": "3.6"
 },
   "sp_file": {
     "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
