@@ -8,10 +8,10 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/pubgm/v2/up-menu/ddpubgm-3.5-1.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/pubgm/v2/up-menu/ddpubgm-3.6-1.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 3.5 up1",
-    "note_lasted": "Lasted update for PUBGM 3.5"
+    "dd_note": "Welcome to DD Esp PUBGM 3.6 up1",
+    "note_lasted": "Lasted update for PUBGM 3.6"
 }
 }
