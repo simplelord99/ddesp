@@ -5,124 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Cập Nhật</title>
     <style>
-        /* --- CẤU HÌNH GIAO DIỆN CHUNG --- */
+        /* --- 1. CẤU HÌNH THANH CUỘN (SCROLLBAR) --- */
+        /* Đây là phần bạn yêu cầu: chỉnh thanh cuộn ngay trong HTML */
+        
+        /* Độ rộng của thanh cuộn */
+        ::-webkit-scrollbar {
+            width: 10px; 
+        }
+
+        /* Nền của rãnh cuộn */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+
+        /* Cục trượt (Thumb) - Bo tròn và màu xám */
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+            border-radius: 5px; /* Bo góc tròn */
+        }
+
+        /* Khi di chuột vào thanh trượt */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        }
+
+        /* --- 2. GIAO DIỆN APP NATIVE --- */
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f3f4f6; /* Màu nền xám nhẹ dịu mắt */
+            background-color: #f3f4f6;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh; /* Căn giữa màn hình */
             
-            /* Cấm bôi đen -> Tạo cảm giác như phần mềm thật */
+            /* Quan trọng: Chống bôi đen chữ để giống App thật */
             -webkit-user-select: none;
             user-select: none;
             cursor: default;
         }
 
-        /* Khung chứa nội dung (Card trắng) */
         .container {
-            background-color: #ffffff;
-            width: 90%;
-            max-width: 450px; /* Độ rộng tối đa */
-            padding: 40px;
+            background-color: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 30px;
             border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             text-align: center;
         }
 
-        /* Tiêu đề */
-        h1 {
-            color: #1f2937;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
+        h2 { margin-top: 0; color: #333; }
+        p { color: #666; margin-bottom: 25px; line-height: 1.5; }
 
-        /* Đoạn văn mô tả */
-        p {
-            color: #6b7280;
-            font-size: 15px;
-            margin-bottom: 30px;
-            line-height: 1.5;
-        }
-
-        /* --- CẤU HÌNH NÚT BẤM (BUTTON) --- */
+        /* --- 3. CÁC NÚT BẤM (BUTTONS) --- */
         .btn {
-            display: block; /* Mỗi nút 1 dòng */
+            display: block;
             width: 100%;
-            padding: 14px 0;
-            margin-bottom: 15px;
-            text-decoration: none; /* Bỏ gạch chân */
+            padding: 12px 0;
+            margin-bottom: 12px;
+            text-decoration: none;
             color: white;
             font-weight: 600;
-            font-size: 16px;
-            border-radius: 8px; /* Bo góc tròn */
-            transition: all 0.2s ease; /* Hiệu ứng mượt mà */
+            border-radius: 8px;
+            transition: transform 0.1s, opacity 0.2s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
             box-sizing: border-box;
-            position: relative;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
-        /* Hiệu ứng khi di chuột vào (Hover) */
         .btn:hover {
-            transform: translateY(-2px); /* Nổi lên 1 xíu */
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-            opacity: 0.95;
+            opacity: 0.9;
+            transform: translateY(-2px); /* Nổi lên */
         }
 
-        /* Hiệu ứng khi bấm xuống (Active) */
         .btn:active {
             transform: translateY(1px); /* Lún xuống */
-            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
         }
 
-        /* --- MÀU SẮC TỪNG NÚT --- */
-        
-        /* 1. Nút Trang chủ (Màu xanh dương) */
-        .btn-website {
-            background-color: #0078d4; 
-        }
-
-        /* 2. Nút Facebook (Màu xanh đậm đặc trưng FB) */
-        .btn-facebook {
-            background-color: #1877F2;
-        }
-
-        /* 3. Nút YouTube (Màu đỏ đặc trưng YT) */
-        .btn-youtube {
-            background-color: #FF0000;
-        }
+        /* Màu từng nút */
+        .website { background-color: #0078d4; } /* Màu Windows */
+        .facebook { background-color: #1877F2; } /* Màu Facebook */
+        .youtube { background-color: #FF0000; }  /* Màu YouTube */
 
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Ảnh minh họa hoặc Icon (dùng Emoji cho gọn) -->
-        <div style="font-size: 48px; margin-bottom: 10px;">🚀</div>
+        <!-- Icon trang trí -->
+        <div style="font-size: 50px; margin-bottom: 10px;">📲</div>
 
-        <h1>Trung tâm Liên kết</h1>
+        <h2>Kết nối với chúng tôi</h2>
         <p>
-            Phiên bản mới nhất đã sẵn sàng.<br>
-            Vui lòng chọn các kênh dưới đây để theo dõi thông tin.
+            Phiên bản mới đã có nhiều cải tiến.<br>
+            Hãy theo dõi các kênh dưới đây để nhận thông báo sớm nhất nhé!
         </p>
 
-        <!-- DANH SÁCH 3 NÚT -->
-        <!-- Code C# sẽ tự bắt các link này để mở trình duyệt -->
-
-        <a href="https://google.com" class="btn btn-website">
+        <!-- 3 Nút bấm -->
+        <a href="https://google.com" class="btn website">
             🌐 Truy cập Website
         </a>
 
-        <a href="https://facebook.com" class="btn btn-facebook">
-            💬 Tham gia Group Facebook
+        <a href="https://facebook.com" class="btn facebook">
+            💬 Fanpage Facebook
         </a>
 
-        <a href="https://youtube.com" class="btn btn-youtube">
-            📺 Đăng ký Kênh YouTube
+        <a href="https://youtube.com" class="btn youtube">
+            📺 Kênh YouTube
         </a>
+        
+        <!-- Đoạn text dài giả lập để test thanh cuộn (bỏ comment để thử) -->
+        <!-- 
+        <p style="margin-top: 50px; text-align: justify; font-size: 13px;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p> 
+        -->
 
     </div>
 
