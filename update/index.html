@@ -6,20 +6,28 @@
     <title>Menu Cập Nhật</title>
     <style>
         /* --- 1. CẤU HÌNH THANH CUỘN (SCROLLBAR) --- */
-        /* Thanh cuộn đẹp, bo tròn */
+        
+        /* Cấu hình chung cho cả thanh dọc và ngang */
         ::-webkit-scrollbar {
-            width: 12px; /* Độ rộng */
+            width: 12px;  /* Độ rộng cho thanh DỌC (bên phải) */
+            height: 12px; /* Độ cao cho thanh NGANG (bên dưới) - QUAN TRỌNG */
         }
+
+        /* Nền rãnh cuộn */
         ::-webkit-scrollbar-track {
-            background: #f1f1f1; /* Nền rãnh */
+            background: #f1f1f1; 
         }
+
+        /* Cục trượt (Thumb) */
         ::-webkit-scrollbar-thumb {
-            background: #888; /* Cục trượt màu xám */
-            border-radius: 6px; /* Bo tròn */
-            border: 2px solid #f1f1f1; /* Viền trắng tạo khoảng cách */
+            background: #888; 
+            border-radius: 6px; 
+            border: 2px solid #f1f1f1; 
         }
+
+        /* Khi di chuột vào thanh trượt */
         ::-webkit-scrollbar-thumb:hover {
-            background: #555; /* Đậm hơn khi di chuột */
+            background: #555; 
         }
 
         /* --- 2. GIAO DIỆN CHUNG --- */
@@ -28,77 +36,92 @@
             background-color: #f3f4f6;
             margin: 0;
             padding: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center; /* Căn giữa dọc */
-            min-height: 100vh; /* Chiều cao tối thiểu bằng màn hình */
             
-            /* Chống bôi đen chữ để giống App */
+            /* Bỏ căn giữa để nội dung có thể tràn sang ngang */
+            /* display: flex; justify-content: center; align-items: center; */
+            
+            min-height: 100vh;
             -webkit-user-select: none;
             user-select: none;
             cursor: default;
+            
+            /* Ép hiển thị thanh cuộn nếu nội dung tràn */
+            overflow-x: auto; 
+            overflow-y: auto;
         }
 
         .container {
             background-color: white;
-            width: 100%;
-            max-width: 400px;
+            /* width: 100%; max-width: 400px; <-- Bỏ giới hạn chiều rộng cũ */
+            
+            width: 400px; /* Chiều rộng cố định cho phần menu */
+            margin: 0 auto; /* Căn giữa menu */
+            
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             text-align: center;
-            
-            /* Đảm bảo nội dung không bị tràn ra ngoài khung */
-            box-sizing: border-box; 
         }
 
         h2 { margin-top: 0; color: #333; }
-        p { color: #666; margin-bottom: 25px; line-height: 1.5; }
+        p { color: #666; margin-bottom: 25px; }
 
         /* --- 3. CÁC NÚT BẤM --- */
         .btn {
-            display: block;
-            width: 100%;
-            padding: 12px 0;
-            margin-bottom: 12px;
-            text-decoration: none;
-            color: white;
-            font-weight: 600;
-            border-radius: 8px;
-            transition: transform 0.1s, opacity 0.2s;
+            display: block; width: 100%; padding: 12px 0; margin-bottom: 12px;
+            text-decoration: none; color: white; font-weight: 600;
+            border-radius: 8px; transition: transform 0.1s, opacity 0.2s;
             box-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
-
-        .btn:hover { opacity: 0.9; transform: translateY(-2px); cursor: pointer; }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
         .btn:active { transform: translateY(1px); }
-
         .website { background-color: #0078d4; }
         .facebook { background-color: #1877F2; }
         .youtube { background-color: #FF0000; }
+
+        /* --- 4. PHẦN TẠO NỘI DUNG RỘNG ĐỂ HIỆN SCROLLBAR NGANG --- */
+        .wide-content {
+            margin-top: 50px;
+            padding: 20px;
+            background: #e3f2fd;
+            border: 1px solid #90caf9;
+            border-radius: 8px;
+            
+            /* QUAN TRỌNG: Ép chiều rộng lớn hơn màn hình (ví dụ 1200px) */
+            width: 1200px; 
+            
+            text-align: left;
+        }
 
     </style>
 </head>
 <body>
 
+    <!-- Khung Menu Chính -->
     <div class="container">
         <div style="font-size: 50px; margin-bottom: 10px;">🚀</div>
         <h2>Trung Tâm Cập Nhật</h2>
-        <p>Vui lòng chọn kênh thông tin bên dưới:</p>
+        <p>Chọn kênh thông tin:</p>
 
-        <!-- 3 Nút Bấm -->
-        <a href="https://google.com" class="btn website">🌐 Website Trang Chủ test1</a>
-        <a href="https://facebook.com" class="btn facebook">💬 Group Facebook</a>
-        <a href="https://youtube.com" class="btn youtube">📺 Kênh YouTube</a>
+        <a href="https://google.com" class="btn website">🌐 Website</a>
+        <a href="https://facebook.com" class="btn facebook">💬 Facebook</a>
+        <a href="https://youtube.com" class="btn youtube">📺 YouTube</a>
+    </div>
 
-        <!-- --- TEST THANH CUỘN (Xóa đoạn dưới này khi chạy thật) --- -->
-        <div style="margin-top: 30px; text-align: left; color: #999; border-top: 1px solid #eee; padding-top: 10px;">
-            <p style="font-size: 12px;">Khu vực test độ dài...</p>
-            <p>Dòng 1: Nội dung demo...</p>
-            <p>Dòng 2: Nội dung demo...</p>
-            <p>Dòng 3: Nội dung demo...</p>
-            <p>Dòng 4: Nội dung demo...</p>
-            <p>Dòng 5: Nội dung demo...</p>
-        </div>
+    <!-- KHU VỰC TEST THANH CUỘN NGANG -->
+    <!-- Div này rộng 1200px nên sẽ ép thanh cuộn ngang hiện ra -->
+    <div class="wide-content">
+        <h3>➡️ Kéo sang phải để xem nội dung bị ẩn</h3>
+        <p>
+            Đây là một đoạn nội dung rất dài và rộng. Vì chiều rộng của cái khung xanh này là 1200px (lớn hơn cửa sổ App của bạn), 
+            nên trình duyệt bắt buộc phải hiển thị <b>Thanh Cuộn Ngang (Horizontal Scrollbar)</b> ở phía dưới cùng cửa sổ.
+        </p>
+        <p>
+            Hãy thử kéo thanh cuộn phía dưới để đọc hết dòng chữ này nhé! 
+            ....................................................................................................
+            ....................................................................................................
+            (Hết)
+        </p>
     </div>
 
 </body>
