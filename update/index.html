@@ -6,41 +6,34 @@
     <title>Menu Cập Nhật</title>
     <style>
         /* --- 1. CẤU HÌNH THANH CUỘN (SCROLLBAR) --- */
-        /* Đây là phần bạn yêu cầu: chỉnh thanh cuộn ngay trong HTML */
-        
-        /* Độ rộng của thanh cuộn */
+        /* Thanh cuộn đẹp, bo tròn */
         ::-webkit-scrollbar {
-            width: 10px; 
+            width: 12px; /* Độ rộng */
         }
-
-        /* Nền của rãnh cuộn */
         ::-webkit-scrollbar-track {
-            background: #f1f1f1; 
+            background: #f1f1f1; /* Nền rãnh */
         }
-
-        /* Cục trượt (Thumb) - Bo tròn và màu xám */
         ::-webkit-scrollbar-thumb {
-            background: #888; 
-            border-radius: 5px; /* Bo góc tròn */
+            background: #888; /* Cục trượt màu xám */
+            border-radius: 6px; /* Bo tròn */
+            border: 2px solid #f1f1f1; /* Viền trắng tạo khoảng cách */
         }
-
-        /* Khi di chuột vào thanh trượt */
         ::-webkit-scrollbar-thumb:hover {
-            background: #555; 
+            background: #555; /* Đậm hơn khi di chuột */
         }
 
-        /* --- 2. GIAO DIỆN APP NATIVE --- */
+        /* --- 2. GIAO DIỆN CHUNG --- */
         body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-family: "Segoe UI", sans-serif;
             background-color: #f3f4f6;
             margin: 0;
             padding: 20px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh; /* Căn giữa màn hình */
+            align-items: center; /* Căn giữa dọc */
+            min-height: 100vh; /* Chiều cao tối thiểu bằng màn hình */
             
-            /* Quan trọng: Chống bôi đen chữ để giống App thật */
+            /* Chống bôi đen chữ để giống App */
             -webkit-user-select: none;
             user-select: none;
             cursor: default;
@@ -54,12 +47,15 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             text-align: center;
+            
+            /* Đảm bảo nội dung không bị tràn ra ngoài khung */
+            box-sizing: border-box; 
         }
 
         h2 { margin-top: 0; color: #333; }
         p { color: #666; margin-bottom: 25px; line-height: 1.5; }
 
-        /* --- 3. CÁC NÚT BẤM (BUTTONS) --- */
+        /* --- 3. CÁC NÚT BẤM --- */
         .btn {
             display: block;
             width: 100%;
@@ -71,57 +67,38 @@
             border-radius: 8px;
             transition: transform 0.1s, opacity 0.2s;
             box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-            box-sizing: border-box;
         }
 
-        .btn:hover {
-            opacity: 0.9;
-            transform: translateY(-2px); /* Nổi lên */
-        }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); cursor: pointer; }
+        .btn:active { transform: translateY(1px); }
 
-        .btn:active {
-            transform: translateY(1px); /* Lún xuống */
-        }
-
-        /* Màu từng nút */
-        .website { background-color: #0078d4; } /* Màu Windows */
-        .facebook { background-color: #1877F2; } /* Màu Facebook */
-        .youtube { background-color: #FF0000; }  /* Màu YouTube */
+        .website { background-color: #0078d4; }
+        .facebook { background-color: #1877F2; }
+        .youtube { background-color: #FF0000; }
 
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Icon trang trí -->
-        <div style="font-size: 50px; margin-bottom: 10px;">📲</div>
+        <div style="font-size: 50px; margin-bottom: 10px;">🚀</div>
+        <h2>Trung Tâm Cập Nhật</h2>
+        <p>Vui lòng chọn kênh thông tin bên dưới:</p>
 
-        <h2>Kết nối với chúng tôi</h2>
-        <p>
-            Phiên bản mới đã có nhiều cải tiến.<br>
-            Hãy theo dõi các kênh dưới đây để nhận thông báo sớm nhất nhé!
-        </p>
+        <!-- 3 Nút Bấm -->
+        <a href="https://google.com" class="btn website">🌐 Website Trang Chủ</a>
+        <a href="https://facebook.com" class="btn facebook">💬 Group Facebook</a>
+        <a href="https://youtube.com" class="btn youtube">📺 Kênh YouTube</a>
 
-        <!-- 3 Nút bấm -->
-        <a href="https://google.com" class="btn website">
-            🌐 Truy cập Website
-        </a>
-
-        <a href="https://facebook.com" class="btn facebook">
-            💬 Fanpage Facebook
-        </a>
-
-        <a href="https://youtube.com" class="btn youtube">
-            📺 Kênh YouTube
-        </a>
-        
-        <!-- Đoạn text dài giả lập để test thanh cuộn (bỏ comment để thử) -->
-        <!-- 
-        <p style="margin-top: 50px; text-align: justify; font-size: 13px;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p> 
-        -->
-
+        <!-- --- TEST THANH CUỘN (Xóa đoạn dưới này khi chạy thật) --- -->
+        <div style="margin-top: 30px; text-align: left; color: #999; border-top: 1px solid #eee; padding-top: 10px;">
+            <p style="font-size: 12px;">Khu vực test độ dài...</p>
+            <p>Dòng 1: Nội dung demo...</p>
+            <p>Dòng 2: Nội dung demo...</p>
+            <p>Dòng 3: Nội dung demo...</p>
+            <p>Dòng 4: Nội dung demo...</p>
+            <p>Dòng 5: Nội dung demo...</p>
+        </div>
     </div>
 
 </body>
