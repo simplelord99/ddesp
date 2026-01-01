@@ -1,28 +1,130 @@
-<style>
-    /* Font chữ hệ thống đẹp hơn */
-    body { font-family: 'Segoe UI', system-ui, sans-serif !important; user-select: none; cursor: default; }
-    
-    /* Cho phép copy chữ trong thẻ p, div */
-    p, div, span, h1, h2, h3 { user-select: text; }
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Cập Nhật</title>
+    <style>
+        /* --- CẤU HÌNH GIAO DIỆN CHUNG --- */
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f3f4f6; /* Màu nền xám nhẹ dịu mắt */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Căn giữa màn hình */
+            
+            /* Cấm bôi đen -> Tạo cảm giác như phần mềm thật */
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
 
-    /* Link đẹp, không gạch chân */
-    a { text-decoration: none !important; color: #0969da; font-weight: 600; transition: 0.2s; }
-    a:hover { text-decoration: underline !important; color: #d1242f; cursor: pointer; }
+        /* Khung chứa nội dung (Card trắng) */
+        .container {
+            background-color: #ffffff;
+            width: 90%;
+            max-width: 450px; /* Độ rộng tối đa */
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+            text-align: center;
+        }
 
-    /* Ẩn thanh cuộn xấu xí (tùy chọn) */
-    ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: #f1f1f1; }
-    ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
-    ::-webkit-scrollbar-thumb:hover { background: #888; }
-</style>
+        /* Tiêu đề */
+        h1 {
+            color: #1f2937;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
 
-<!-- Nút Youtube đẹp, bấm là C# tự bắt link và mở trình duyệt -->
-<div style="text-align: center; margin: 20px 0;">
-    <a href="https://www.youtube.com" 
-       style="background-color: #FF0000; color: white; padding: 10px 20px; 
-              text-decoration: none; border-radius: 5px; font-weight: bold; 
-              font-family: sans-serif; display: inline-block; 
-              box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
-       ▶ Mở YouTube
-    </a>
-</div>
+        /* Đoạn văn mô tả */
+        p {
+            color: #6b7280;
+            font-size: 15px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+
+        /* --- CẤU HÌNH NÚT BẤM (BUTTON) --- */
+        .btn {
+            display: block; /* Mỗi nút 1 dòng */
+            width: 100%;
+            padding: 14px 0;
+            margin-bottom: 15px;
+            text-decoration: none; /* Bỏ gạch chân */
+            color: white;
+            font-weight: 600;
+            font-size: 16px;
+            border-radius: 8px; /* Bo góc tròn */
+            transition: all 0.2s ease; /* Hiệu ứng mượt mà */
+            box-sizing: border-box;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* Hiệu ứng khi di chuột vào (Hover) */
+        .btn:hover {
+            transform: translateY(-2px); /* Nổi lên 1 xíu */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            opacity: 0.95;
+        }
+
+        /* Hiệu ứng khi bấm xuống (Active) */
+        .btn:active {
+            transform: translateY(1px); /* Lún xuống */
+            box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
+
+        /* --- MÀU SẮC TỪNG NÚT --- */
+        
+        /* 1. Nút Trang chủ (Màu xanh dương) */
+        .btn-website {
+            background-color: #0078d4; 
+        }
+
+        /* 2. Nút Facebook (Màu xanh đậm đặc trưng FB) */
+        .btn-facebook {
+            background-color: #1877F2;
+        }
+
+        /* 3. Nút YouTube (Màu đỏ đặc trưng YT) */
+        .btn-youtube {
+            background-color: #FF0000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Ảnh minh họa hoặc Icon (dùng Emoji cho gọn) -->
+        <div style="font-size: 48px; margin-bottom: 10px;">🚀</div>
+
+        <h1>Trung tâm Liên kết</h1>
+        <p>
+            Phiên bản mới nhất đã sẵn sàng.<br>
+            Vui lòng chọn các kênh dưới đây để theo dõi thông tin.
+        </p>
+
+        <!-- DANH SÁCH 3 NÚT -->
+        <!-- Code C# sẽ tự bắt các link này để mở trình duyệt -->
+
+        <a href="https://google.com" class="btn btn-website">
+            🌐 Truy cập Website
+        </a>
+
+        <a href="https://facebook.com" class="btn btn-facebook">
+            💬 Tham gia Group Facebook
+        </a>
+
+        <a href="https://youtube.com" class="btn btn-youtube">
+            📺 Đăng ký Kênh YouTube
+        </a>
+
+    </div>
+
+</body>
+</html>
