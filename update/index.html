@@ -1,3 +1,21 @@
+<style>
+    /* Font chữ hệ thống đẹp hơn */
+    body { font-family: 'Segoe UI', system-ui, sans-serif !important; user-select: none; cursor: default; }
+    
+    /* Cho phép copy chữ trong thẻ p, div */
+    p, div, span, h1, h2, h3 { user-select: text; }
+
+    /* Link đẹp, không gạch chân */
+    a { text-decoration: none !important; color: #0969da; font-weight: 600; transition: 0.2s; }
+    a:hover { text-decoration: underline !important; color: #d1242f; cursor: pointer; }
+
+    /* Ẩn thanh cuộn xấu xí (tùy chọn) */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #f1f1f1; }
+    ::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #888; }
+</style>
+
 <!-- Nút Youtube đẹp, bấm là C# tự bắt link và mở trình duyệt -->
 <div style="text-align: center; margin: 20px 0;">
     <a href="https://www.youtube.com" 
