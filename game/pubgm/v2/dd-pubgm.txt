@@ -1,6 +1,6 @@
 {
   "phienban_up": {
-    "version_app": "3.8"
+    "version_app": "0"
 },
   "sp_file": {
     "dxwebsetup": "https://github.com/simplelord99/ddesp/raw/main/game/pubgm/v2/up-menu/dxwebsetup.exe",
@@ -8,10 +8,10 @@
     "vc_redistx64": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
   },
 "DDPUBGM_update": {
-    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/pubgm/v2/up-menu/pubgm3.8-1.zip"
+    "downloadurl": "https://github.com/simplelord99/ddesp/raw/refs/heads/main/game/pubgm/v2/up-menu/16-1-26-update-ddpubgm.zip"
 },
 "note_data": {
-    "dd_note": "Welcome to DD Esp PUBGM 3.8 fix1",
-    "note_lasted": "Lasted update for PUBGM 3.8"
+    "dd_note": "https://bit.ly/m/ddesp",
+    "note_lasted": "Update Available: https://bit.ly/m/ddesp"
 }
 }
